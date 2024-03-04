@@ -3,6 +3,7 @@
 ## Notes
 x4 emails 
 Email 3 - ignore banner at the bottom of the email
+Ensure to enact the new amends on the XD link
 
 ## Showcase and Markup Links
 
@@ -23,7 +24,7 @@ StIzh6!nZhdR
 Altered interactive module - emails 1 and 4 (pinch from previous job)
 gif module emails 2 and 3
 here's how it works 2 column emails 2, 3, 4 (pinch from previous job)
-how muich could you save interactive module (pinch from recent job)
+how muich could you save interactive module (pinch from recent job - 10119 - Sainsbury's)
 All new IQOS ILUMA 4 icon 2 col module - pinch from recent job
 Kunta module  - pinch from recent job (10193?)
 
@@ -55,3 +56,4 @@ email-1-warm-leads.html
 email-2-cold-leads.html
 email-3-ex-lenders.html
 email-4-new-try-reminder-email.html
+
