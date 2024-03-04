@@ -48,5 +48,10 @@ MONDAY
 4pm-5:30pm
 
 ## TO CONFIRM
-E1 - interactive module - where have we made this before? Check project from last week. 
-E3 - Banner at the bottom - just normal not parallax?
+Trustpilot month
+
+## NAMES
+email-1-warm-leads.html
+email-2-cold-leads.html
+email-3-ex-lenders.html
+email-4-new-try-reminder-email.html
