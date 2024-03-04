@@ -20,6 +20,7 @@ StIzh6!nZhdR
 
 
 ## TODO
+Make e1 tobacco and device module padding smaller on mobile to match desktop
 
 ### COMMON MODULES TO BUILD
 Altered interactive module - emails 1 and 4 (pinch from previous job)
