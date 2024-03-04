@@ -31,17 +31,10 @@ All new IQOS ILUMA 4 icon 2 col module - pinch from recent job
 Kunta module  - pinch from recent job (10193?)
 
 ## PLAN
-Build email 1 first - check and test
-build separate email modules
 
-End of Monday - email 1 checked and tested, all modules built, checked and tested
-
-Tuesday - put remaining modules together in emails, check and test
-
-Tuesday PM - IA.
 
 TUESDAY
-7am-8am checks and testing for email 1 - if time, start next email containing interactive section
+7am-8am start building email 4 using email 1 as a template
 
 9am-10am
 
