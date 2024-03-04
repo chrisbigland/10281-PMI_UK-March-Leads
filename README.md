@@ -25,7 +25,7 @@ gif module emails 2 and 3
 here's how it works 2 column emails 2, 3, 4 (pinch from previous job)
 how muich could you save interactive module (pinch from recent job)
 All new IQOS ILUMA 4 icon 2 col module - pinch from recent job
-Kunta module  - pinch from recent job
+Kunta module  - pinch from recent job (10193?)
 
 ## PLAN
 Build email 1 first - check and test
