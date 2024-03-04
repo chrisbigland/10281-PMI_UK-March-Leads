@@ -72,5 +72,5 @@ email-4-new-try-reminder-email.html
 
 ## Testing issues
 e1 - samsung S20 not stacking
-e1 GMAIL CLIPPING
+e1 GMAIL CLIPPING - ask simon if I can remove 'width-50-mobile' and 'width-56-mobile' classes
 
