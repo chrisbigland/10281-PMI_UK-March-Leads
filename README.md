@@ -40,15 +40,16 @@ Tuesday - put remaining modules together in emails, check and test
 
 Tuesday PM - IA.
 
-MONDAY
-9:30am - 10:30am module collection and asset exporting
-10:30am - 11:30am build email 1 up to interactive module
-11:30am - 12:30pm build interactive module and make necesary changes. If time before dev meeting, test email
-12:30pm Dev meeting
-1pm-2pm lunch
-2pm-3pm
-3pm-4pm
-4pm-5:30pm
+TUESDAY
+7am-8am checks and testing for email 1 - if time, start next email containing interactive section
+9am-10am
+10am-11am
+11am-midday
+midday-1pm
+1pm-2pm LUNCH
+2pm - 3pm IA checks/Testing
+3pm IA (thorough testing meanwhile)
+4pm - finish - amends
 
 ## TO CONFIRM
 Trustpilot month
