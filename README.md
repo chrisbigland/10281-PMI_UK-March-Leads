@@ -42,13 +42,23 @@ Tuesday PM - IA.
 
 TUESDAY
 7am-8am checks and testing for email 1 - if time, start next email containing interactive section
+
 9am-10am
+
 10am-11am
-11am-midday
-midday-1pm
+
+11am-11:30am Meeting with Hussein
+
+11:30am - midday 
+
+midday-1pm MEETING
+
 1pm-2pm LUNCH
+
 2pm - 3pm IA checks/Testing
+
 3pm IA (thorough testing meanwhile)
+
 4pm - finish - amends
 
 ## TO CONFIRM
@@ -59,4 +69,8 @@ email-1-warm-leads.html
 email-2-cold-leads.html
 email-3-ex-lenders.html
 email-4-new-try-reminder-email.html
+
+## Testing issues
+e1 - samsung S20 not stacking
+e1 GMAIL CLIPPING
 
