@@ -23,7 +23,7 @@ StIzh6!nZhdR
 ### COMMON MODULES TO BUILD
 Altered interactive module - emails 1 and 4 (pinch from previous job)
 gif module emails 2 and 3
-here's how it works 2 column emails 2, 3, 4 (pinch from previous job)
+here's how it works 2 column emails 2, 3, 4 (pinch from previous job - 10119 - Sainsbury's email 1)
 how muich could you save interactive module (pinch from recent job - 10119 - Sainsbury's)
 All new IQOS ILUMA 4 icon 2 col module - pinch from recent job
 Kunta module  - pinch from recent job (10193?)
