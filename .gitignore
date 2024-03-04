@@ -5,3 +5,9 @@
 testing/
 *.php
 *.fig
+
+# OPTIMISE
+/node_modules/
+/dist/
+/email-build/
+package-lock.json
