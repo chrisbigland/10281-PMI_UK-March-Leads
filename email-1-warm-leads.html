@@ -169,6 +169,7 @@
       .two-column .column td {
         text-align: center !important;
       }
+      
 
     }
 
@@ -232,6 +233,11 @@
         padding-right: 20px !important;
       }
 
+      .px-5-mob-xs {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+
     }
 
     @media screen and (max-width: 480px) {
@@ -243,6 +249,7 @@
         width: 100% !important;
       }
     }
+    
   </style>
   <!--[if mso]>
  <style type="text/css">
@@ -251,9 +258,153 @@
    }
  </style>
  <![endif]-->
+ <style>
+  .input:checked~table .indicators {
+    display: block !important;
+  }
+
+  .input:checked~table .slide-content,
+  .input:checked~table .interactive-fallback {
+    display: none !important;
+  }
+</style>
+
+<style>
+  .indicator {
+    display: inline-block;
+    width: 33%;
+    height: 6px;
+    border-radius: 20px;
+  }
+
+  label {
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 449px) {
+    .variant-details {
+      display: block !important;
+      padding: 0 !important;
+    }
+
+    .variant-details img {
+      margin-bottom: 6px !important;
+    }
+  }
+
+  @media only screen and (max-width: 399px) {
+    .px-0-mobile {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .variant-img {
+      width: 90% !important;
+    }
+
+    .variant-heading {
+      font-size: 14px !important;
+      margin-bottom: 2px !important;
+    }
+
+    .variant-text {
+      font-size: 12px !important;
+    }
+
+    .best-seller-text {
+      font-size: 11px !important;
+    }
+
+    .variant-details p {
+      font-size: 12px !important;
+    }
+
+    .px-10-mobile {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    .min-width-174-mob-xs {
+      min-width: 174px !important;
+    }
+  }
+
+
+  #slide-1:checked~table .slide-1 {
+    display: block !important;
+  }
+
+  #slide-2:checked~table .slide-2 {
+    display: block !important;
+  }
+
+  #slide-3:checked~table .slide-3 {
+    display: block !important;
+  }
+</style>
+
+<style>
+  .& .input:checked~table .indicators.indicators-yahoo {
+    display: none !important;
+  }
+
+  .& #slide-1:checked~table .slide-1 {
+    display: none !important;
+  }
+
+  .& #slide-2:checked~table .slide-2 {
+    display: none !important;
+  }
+
+  .& #slide-3:checked~table .slide-3 {
+    display: none !important;
+  }
+</style>
+<style type="text/css">
+  @media screen and (max-width: 599px) {
+    .show-mob {
+      display: block !important;
+      max-height: none !important;
+    }
+
+    .hide-mob {
+      display: none !important;
+      max-height: 0px !important;
+    }
+
+    .pb-0-mob {
+      padding-bottom: 0px !important;
+    }
+
+    .pt-30-mob {
+      padding-top: 30px !important;
+    }
+
+    .txt-center-mob {
+      text-align: center !important;
+    }
+
+    .pb-25-mob {
+      padding-bottom: 25px !important;
+    }
+    .px-5-mob {
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+    }
+    .flav-pt-non-bs-mob {
+      padding-top: 28px !important;
+    }
+    .m-0-mob {
+      margin: 0 !important;
+    }
+  }
+
+</style>
 </head>
 
-<body xml:lang="en" class="body" style="Margin:0;padding:0;min-width:100%;max-width:600px!important;background-color:#ffffff;">
+<body xml:lang="en" class="body" style="Margin:0;padding:0;min-width:100%;max-width:600px!important;background-color:#ffffff;word-wrap:normal;word-spacing:normal;">
   <center class="wrapper" style="width:100%;table-layout:fixed;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; text-align:center;">
     <div class="webkit" style="max-width:600px; width:100%; margin:0 auto; display:block;" lang="en" role="article" aria-label="Email from IQOS">
       <!--[if (gte mso 9)|(IE)]>
@@ -261,6 +412,12 @@
    <tr>
    <td style="padding:0;" >
    <![endif]-->
+
+         <!--[if !mso]><!-->
+          <input class="input" type="radio" name="slides" id="slide-1" style="mso-hide:all; display:none;" checked="checked" />
+          <input class="input" type="radio" name="slides" id="slide-2" style="mso-hide:all; display:none;" />
+          <input class="input" type="radio" name="slides" id="slide-3" style="mso-hide:all; display:none;" />
+          <!--<![endif]-->
       <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="outer" align="center" style="border-spacing:0; font-family:'Inter', Arial, sans-serif; color:#34303d; Margin:0 auto; width:100%; max-width:600px; background-color:#ffffff;">
         <tr>
           <td class="preloader" style="padding:10px 0 4px; max-width:600px; text-align:center;">
