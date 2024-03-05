@@ -40,13 +40,15 @@ Kunta module  - pinch from recent job (10193?)
 TUESDAY
 7am-8am start building email 4 using email 1 as a template
 
-9am-10am
+9am-10am Finish testing email 4
 
 10am-11am
+Build email 2 and 3
 
 11am-11:30am Meeting with Hussein
 
 11:30am - midday 
+email 2/3 IA checks
 
 midday-1pm MEETING
 
