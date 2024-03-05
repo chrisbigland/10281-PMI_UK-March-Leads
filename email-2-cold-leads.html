@@ -315,7 +315,170 @@
         width: 100% !important;
       }
     }
+    
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .interactive {
+    display: block !important;
+  }
+
+  .product-choice {
+    display: block !important;
+  }
+
+  .fallback {
+    display: none !important;
+  }
+
+}
   </style>
+
+
+<style type="text/css">
+#product_1:checked~table .fallback,
+#product_2:checked~table .fallback,
+#product_3:checked~table .fallback,
+#product_4:checked~table .fallback,
+#product_5:checked~table .fallback {
+  display: none !important;
+}
+
+.noanswer {
+  display: block !important;
+}
+
+#product_1:checked~table .noanswer,
+#product_2:checked~table .noanswer,
+#product_3:checked~table .noanswer {
+  display: none !important;
+}
+
+#product_1:checked~table .productone {
+  display: block !important;
+}
+
+#product_1:checked~table .colpick_img_shadow {
+  display: inline-block !important;
+}
+
+#product_1:checked~table .colpick_img {
+  display: none !important;
+}
+
+.colpick_img:hover,
+.colpick_img_two:hover,
+.colpick_img_three:hover,
+.colpick_img_four:hover,
+.colpick_img_five:hover {
+  color: #ffffff !important;
+  background-color: #34303d !important;
+}
+
+#product_2:checked~table .producttwo {
+  display: block !important;
+}
+
+#product_2:checked~table .colpick_shadow_two {
+  display: block !important;
+}
+
+#product_2:checked~table .colpick_img_two {
+  display: none !important;
+}
+
+#product_3:checked~table .productthree {
+  display: block !important;
+}
+
+#product_3:checked~table .colpick_shadow_three {
+  display: block !important;
+}
+
+#product_3:checked~table .colpick_img_three {
+  display: none !important;
+}
+
+#product_4:checked~table .productfour {
+  display: block !important;
+}
+
+#product_4:checked~table .colpick_shadow_four {
+  display: block !important;
+}
+
+#product_4:checked~table .colpick_img_four {
+  display: none !important;
+}
+
+#product_5:checked~table .productfive {
+  display: block !important;
+}
+
+#product_5:checked~table .colpick_shadow_five {
+  display: block !important;
+}
+
+#product_5:checked~table .colpick_img_five {
+  display: none !important;
+}
+
+.color_picker {
+  display: inline-block;
+}
+</style>
+<style type="text/css">
+u+.body .product-choice {
+  display: none !important;
+}
+
+div>u+.body .product-choice {
+  display: none !important;
+}
+</style>
+<!-- Outlook web -->
+<style type="text/css">
+[class="x_product-choice"] {
+  display: none !important;
+}
+
+[class="x_fallback"] {
+  display: block !important;
+}
+
+[class="x_interactive"] {
+  display: none !important;
+}
+</style>
+
+<!-- Outlook mobile -->
+<style type="text/css">
+.product-choice\0 {
+  display: none !important;
+}
+
+.noanswer\0 {
+  display: none !important;
+}
+
+.fallback\0 {
+  display: block !important;
+}
+
+.interactive\0 {
+  display: none !important;
+}
+</style>
+<!-- Yahoo -->
+<style type="text/css">
+
+.& .product-choice {
+  display: none !important;
+}
+</style>
+<style type="text/css">
+#MessageViewBody .fallback-colour-options {
+  display: none !important;
+}
+</style>
   <!--[if mso]>
  <style type="text/css">
    sup {
@@ -779,6 +942,378 @@
                     </a>
                     <!--<![endif]-->
                   </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:0; text-align:center;">
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0; Margin:0 auto;background-color:#f0f0f0;">
+              <tr>
+
+                <td class="one-column" style="padding: 0;max-width:600px;text-align:center;">
+
+                  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+
+                    <!-- Product/Colour switch block: START -->
+
+                    <!--[if mso]>
+              <!-->
+
+                    <input type="radio" name="product" id="product_1" style="display:none !important;">
+
+                    <input type="radio" name="product" id="product_2" style="display:none !important;">
+
+                    <input type="radio" name="product" id="product_3" style="display:none !important;">
+
+                    <input type="radio" name="product" id="product_4" style="display:none !important;">
+
+                    <input type="radio" name="product" id="product_5" style="display:none !important;">
+
+                    <!--<![endif]-->
+
+                    <!--[if !mso]><!-->
+
+                    <tr>
+                      <td class="interactive" style="padding:35px 30px 30px; text-align:center; margin: 0 auto; display: none; mso-hide: all;">
+                        <h2 style="font-size:25px; line-height:30px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303D; Margin:0 auto;max-width:430px">How many cigarettes do you smoke in a&nbsp;day?</h2>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="interactive" style="padding: 0; max-width:600px;text-align:center; display: none; mso-hide: all;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+
+                          <tr>
+                            <td class="product-choice" style="padding: 0;max-width:600px;text-align:center; display: none; mso-hide: all;">
+                              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; ">
+                                <tr>
+                                  <td class="product-choice" align="center" style="padding: 0; mso-padding-alt: 0px; display: none;">
+                                    <table role="presentation" align="center" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                      <tr>
+                                        <td dir="ltr" class="two-column" style="padding: 0 0 20px;max-width:600px;font-size:0;text-align: center;"><!--[if (gte mso 9)|(IE)]>
+                    <table role="presentation" width="100%" style="border-spacing:0;font-family: Helvetica, Arial, sans-serif;color:#414042;" >
+                      <tr>
+                        <td width="20%" valign="middle" style="padding:0;" >
+                    <![endif]-->
+
+                                          <div class="column" style="width:100%;max-width:115px;display:inline-block;vertical-align:middle;">
+                                            <table dir="ltr" role="presentation" align="center" width="100%" style="border-spacing:0;padding: 0;font-family: 'Inter', Arial, sans-serif;Margin:0 auto;">
+                                              <tr>
+                                                <td style="padding: 0 5px 20px;"><label for="product_1" class="color_picker" style="cursor: pointer;">
+                                                    <div class="colpick_img" style="mso-hide:all; border-radius:30px; padding:10px 5px; border:1px solid #34303d; color:#34303d; display:inline-block; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">1-5</div>
+                                                    <div class="colpick_img_shadow" style="mso-hide:all; border-radius:30px; padding:10px 5px; background-color:#34303d; border:1px solid #34303d; color:#ffffff; display:none; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">1-5</div>
+                                                  </label></td>
+                                              </tr>
+                                            </table>
+                                          </div>
+
+                                          <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20%" valign="middle" style="padding:0;" >
+                    <![endif]-->
+
+                                          <div class="column" style="width:100%;max-width:115px;display:inline-block;vertical-align:middle;">
+                                            <table dir="ltr" role="presentation" align="center" width="100%" style="border-spacing:0;padding: 0;font-family: 'Inter', Arial, sans-serif;Margin:0 auto;">
+                                              <tr>
+                                                <td style="padding: 0 5px 20px;"><label for="product_2" class="color_picker" style="cursor: pointer;">
+                                                    <div class="colpick_img_two" style="mso-hide:all; border-radius:30px; padding:10px 5px; border:1px solid #34303d; color:#34303d; display:inline-block; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">6-10</div>
+                                                    <div class="colpick_shadow_two" style="mso-hide:all; border-radius:30px; padding:10px 5px; background-color:#34303d; border:1px solid #34303d; color:#ffffff; display:none; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">6-10</div>
+                                                  </label></td>
+                                              </tr>
+                                            </table>
+                                          </div>
+
+                                          <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20%" valign="middle" style="padding:0;" >
+                    <![endif]-->
+
+                                          <div class="column" style="width:100%;max-width:115px;display:inline-block;vertical-align:middle;">
+                                            <table dir="ltr" role="presentation" align="center" width="100%" style="border-spacing:0;padding: 0;font-family: 'Inter', Arial, sans-serif;Margin:0 auto;">
+                                              <tr>
+                                                <td style="padding: 0 5px 20px;"><label for="product_3" class="color_picker" style="cursor: pointer;">
+                                                    <div class="colpick_img_three" style="mso-hide:all; border-radius:30px; padding:10px 5px; border:1px solid #34303d; color:#34303d; display:inline-block; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">11-15</div>
+                                                    <div class="colpick_shadow_three" style="mso-hide:all; border-radius:30px; padding:10px 5px; background-color:#34303d; border:1px solid #34303d; color:#ffffff; display:none; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">11-15</div>
+                                                  </label></td>
+                                              </tr>
+                                            </table>
+                                          </div>
+
+                                          <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20%" valign="middle" style="padding:0;" >
+                    <![endif]-->
+
+                                          <div class="column" style="width:100%;max-width:115px;display:inline-block;vertical-align:middle;">
+                                            <table dir="ltr" role="presentation" align="center" width="100%" style="border-spacing:0;padding: 0;font-family: 'Inter', Arial, sans-serif;Margin:0 auto;">
+                                              <tr>
+                                                <td style="padding: 0 5px 20px;"><label for="product_4" class="color_picker" style="cursor: pointer;">
+                                                    <div class="colpick_img_four" style="mso-hide:all; border-radius:30px; padding:10px 5px; border:1px solid #34303d; color:#34303d; display:inline-block; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">16-20</div>
+                                                    <div class="colpick_shadow_four" style="mso-hide:all; border-radius:30px; padding:10px 5px; background-color:#34303d; border:1px solid #34303d; color:#ffffff; display:none; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">16-20</div>
+                                                  </label></td>
+                                              </tr>
+                                            </table>
+                                          </div>
+
+                                          <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        <td width="20%" valign="middle" style="padding:0;" >
+                    <![endif]-->
+
+                                          <div class="column" style="width:100%;max-width:115px;display:inline-block;vertical-align:middle;">
+                                            <table dir="ltr" role="presentation" align="center" width="100%" style="border-spacing:0;padding: 0;font-family: 'Inter', Arial, sans-serif;Margin:0 auto;">
+                                              <tr>
+                                                <td style="padding: 0 5px 20px;"><label for="product_5" class="color_picker" style="cursor: pointer;">
+                                                    <div class="colpick_img_five" style="mso-hide:all; border-radius:30px; padding:10px 5px; border:1px solid #34303d; color:#34303d; display:inline-block; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">21+</div>
+                                                    <div class="colpick_shadow_five" style="mso-hide:all; border-radius:30px; padding:10px 5px; background-color:#34303d; border:1px solid #34303d; color:#ffffff; display:none; font-size:16px; line-height:23px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center; text-decoration:none; width:90px; -webkit-text-size-adjust:none;">21+</div>
+                                                  </label></td>
+                                              </tr>
+                                            </table>
+                                          </div>
+
+                                          <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                      </tr>
+                    </table>
+                    <![endif]-->
+
+                                        </td>
+
+                                      </tr>
+
+                                    </table>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="productone" style="padding: 0 30px;max-width:600px;text-align:center; display: none; mso-hide: all;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                      <tr>
+                                        <td style="padding:0 30px 10px; text-align:center; max-width: 400px; display: block; margin: 0 auto;">
+                                          <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303D; mso-line-height-rule:exactly; Margin:0 auto;">You could be saving&nbsp;around</h3>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 0 40px; mso-padding-alt: 0 40px 40px; max-width:400px;text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; background-color: #ffffff;">
+                                            <tr>
+                                              <td style="padding:40px 30px 40px; text-align:center;">
+                                                <p style="font-size:46px; line-height:52px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0 auto;">&pound;&nbsp;338</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="producttwo" style="padding: 0 30px;max-width:600px;text-align:center; display: none; mso-hide: all;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                      <tr>
+                                        <td style="padding:0 30px 10px; text-align:center; max-width: 400px; display: block; margin: 0 auto;">
+                                          <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303D; mso-line-height-rule:exactly; Margin:0 auto;">You could be saving&nbsp;around</h3>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 0 40px; mso-padding-alt: 0 40px 40px; max-width:400px;text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; background-color: #ffffff;">
+                                            <tr>
+                                              <td style="padding:40px 30px 40px; text-align:center;">
+                                                <p style="font-size:46px; line-height:52px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0 auto;">&pound;&nbsp;902</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="productthree" style="padding: 0 30px;max-width:600px;text-align:center; display: none; mso-hide: all;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                      <tr>
+                                        <td style="padding:0 30px 10px; text-align:center; max-width: 400px; display: block; margin: 0 auto;">
+                                          <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303D; mso-line-height-rule:exactly; Margin:0 auto;">You could be saving&nbsp;around</h3>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 0 40px; mso-padding-alt: 0 40px 40px; max-width:400px;text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; background-color: #ffffff;">
+                                            <tr>
+                                              <td style="padding:40px 30px 40px; text-align:center;">
+                                                <p style="font-size:46px; line-height:52px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0 auto;">&pound;&nbsp;1466</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="productfour" style="padding: 0 30px;max-width:600px;text-align:center; display: none; mso-hide: all;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                      <tr>
+                                        <td style="padding:0 30px 10px; text-align:center; max-width: 400px; display: block; margin: 0 auto;">
+                                          <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303D; mso-line-height-rule:exactly; Margin:0 auto;">You could be saving&nbsp;around</h3>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 0 40px; mso-padding-alt: 0 40px 40px; max-width:400px;text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; background-color: #ffffff;">
+                                            <tr>
+                                              <td style="padding:40px 30px 40px; text-align:center;">
+                                                <p style="font-size:46px; line-height:52px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0 auto;">&pound;&nbsp;2030</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="productfive" style="padding: 0 30px;max-width:600px;text-align:center; display: none; mso-hide: all;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                      <tr>
+                                        <td style="padding:0 30px 10px; text-align:center; max-width: 400px; display: block; margin: 0 auto;">
+                                          <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303D; mso-line-height-rule:exactly; Margin:0 auto;">You could be saving&nbsp;around</h3>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 0 40px; mso-padding-alt: 0 40px 40px; max-width:400px;text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; background-color: #ffffff;">
+                                            <tr>
+                                              <td style="padding:40px 30px 40px; text-align:center;">
+                                                <p style="font-size:46px; line-height:52px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0 auto;">&pound;&nbsp;2368&#43;</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <!--<![endif]-->
+
+                    <tr>
+                      <td class="fallback" style="padding: 0;max-width:600px;text-align:center; background-color: #F0F0F0;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                          <tr>
+                            <td style="padding: 0;max-width:600px;text-align:center; background-color: #F0F0F0;">
+                              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                <tr>
+                                  <td style="padding: 0 30px 0; text-align:center;">
+                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto; background-color: #F0F0F0;">
+                                      <tr>
+                                        <td style="padding: 0; text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                            <tr>
+                                              <td width="50%" style="padding:30px 10px 20px 20px; text-align:center;">
+                                                <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; mso-line-height-rule:exactly; Margin:0;">Cigarettes smoked in a day</h3>
+                                              </td>
+                                              <td width="50%" style="padding:30px 30px 20px 10px; text-align:center;">
+                                                <h3 style="font-size:16px; line-height:20px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; mso-line-height-rule:exactly; Margin:0;">You could be saving around</h3>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 20px 5px; text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                            <tr>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #00CAC8; border-top-left-radius: 30px; border-bottom-left-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">1&#8209;5</p>
+                                              </td>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #FFFFFF; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">&pound;338</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 20px 5px; text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                            <tr>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #00CAC8; border-top-left-radius: 30px; border-bottom-left-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">6&#8209;10</p>
+                                              </td>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #FFFFFF; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">&pound;902</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 20px 5px; text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                            <tr>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #00CAC8; border-top-left-radius: 30px; border-bottom-left-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">11&#8209;15</p>
+                                              </td>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #FFFFFF; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">&pound;1466</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 20px 5px; text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                            <tr>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #00CAC8; border-top-left-radius: 30px; border-bottom-left-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">16&#8209;20</p>
+                                              </td>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #FFFFFF; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">&pound;2030</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0 20px 30px; text-align:center;">
+                                          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border-spacing:0;margin: 0 auto;">
+                                            <tr>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #00CAC8; border-top-left-radius: 30px; border-bottom-left-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">21&#43;</p>
+                                              </td>
+                                              <td width="50%" style="padding:10px 5px; text-align:center; background-color: #FFFFFF; border-top-right-radius: 30px; border-bottom-right-radius: 30px;">
+                                                <p style="font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 700; color:#34303d; Margin:0;">&pound;2368&#43;</p>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+
+                    <!-- Product/Colour switch block: END -->
+
+                  </table>
                 </td>
               </tr>
             </table>
