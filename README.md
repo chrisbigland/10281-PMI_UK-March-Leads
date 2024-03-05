@@ -24,6 +24,7 @@ Check CTA padding is aligned across emails
 
 ## PROGRESS
 E1 - built, checked, tested (needs links!)
+E3 - built, IA checks done. Needs thorough checks and testing
 E4 - built, IA checks done. Needs thorough checks and testing
 
 
