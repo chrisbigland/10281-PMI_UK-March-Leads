@@ -22,6 +22,10 @@ StIzh6!nZhdR
 ## TODO
 
 
+## PROGRESS
+E1 - built, checked, tested (needs links!)
+
+
 ### COMMON MODULES TO BUILD
 Altered interactive module - emails 1 and 4 (pinch from previous job)
 gif module emails 2 and 3
