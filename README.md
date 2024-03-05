@@ -20,7 +20,7 @@ StIzh6!nZhdR
 
 
 ## TODO
-
+Check CTA padding is aligned across emails
 
 ## PROGRESS
 E1 - built, checked, tested (needs links!)
