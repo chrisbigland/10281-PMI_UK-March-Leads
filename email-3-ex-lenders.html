@@ -171,12 +171,10 @@
 
       .show-mob {
         display: block !important;
-        max-height: none !important;
       }
 
       .hide-mob {
         display: none !important;
-        max-height: 0px !important;
       }
 
       .how-works-px-mob {
@@ -300,19 +298,6 @@
   #MessageViewBody .samsung-mw-312 {
   max-width: 312px !important;
   }
-  </style>
-
-<style type="text/css"> 
- @media only screen and (max-width: 599px) {
-  .yahoo-right-align {
-  text-align: /*right !important*/;
-  margin: /* 0 0 0 auto !important */;
-}
-
-.pr-yahoo-mob {
-  padding-right: /*0px !important*/;
-}
- }
   </style>
 
 
@@ -759,17 +744,28 @@
                   <div class="column" style="width:100%;max-width:258px;display:inline-block;vertical-align:middle;">
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="border-spacing:0;padding: 0;font-family: 'Inter', Arial, sans-serif;Margin:0 auto;">
                       <tr>
-                        <td class="pt-0-mob px-20-mob pr-yahoo-mob" style="text-align:center; padding:30px 0 40px;">
-                          <div class="yahoo-right-align" style="max-width:253px; Margin:0 auto; text-align:center; ">
+                        <td class="pt-0-mob px-20-mob hide-mob" style="text-align:center; padding:30px 0 40px;">
+                          <div style="max-width:253px; Margin:0 auto; text-align:center; ">
                             <a href="https://www.iqos.com/gb/en/try.html" target="_blank" style="text-decoration:none; color:#34303d; font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center;">
-                              <img class="hide-mob" src="images/how-it-works-kv.png" width="253" height="auto" alt="Try IQOS ILUMA ONE for &pound;10 Upfront" border="0" style="text-align:center; border-width:0; width:100%; height:auto; display:block; Margin:0 auto; white-space:pre-line; color:#34303d; font-size:18px; line-height:22px; font-family:'Inter', Arial, sans-serif; font-style:normal; font-weight:600; " />
-                              <!--[if !mso]><!-->
-                              <img class="show-mob" src="images/how-it-works-kv-mob.png" width="286" height="auto" alt="Try IQOS ILUMA ONE for &pound;10 Upfront" border="0" style="text-align:center; border-width:0; width:100%; height:auto; display:block; Margin:0 auto; white-space:pre-line; color:#34303d; font-size:18px; line-height:22px; font-family:'Inter', Arial, sans-serif; font-style:normal; font-weight:600; display:none;max-height:0px;" />
-                              <!--<![endif]-->
+                              <img src="images/how-it-works-kv.png" width="253" height="auto" alt="Try IQOS ILUMA ONE for &pound;10 Upfront" border="0" style="text-align:center; border-width:0; width:100%; height:auto; display:block; Margin:0 auto; white-space:pre-line; color:#34303d; font-size:18px; line-height:22px; font-family:'Inter', Arial, sans-serif; font-style:normal; font-weight:600; " />
                             </a>
                           </div>
                         </td>
                       </tr>
+                      <!--[if !mso]><!-->
+                        <tr>
+                          <td class="pt-0-mob px-20-mob show-mob" style="text-align:center; padding:30px 0 40px; display: none;">
+                            <div class="" style="max-width:253px; Margin:0 auto; text-align:center; ">
+                              <a href="https://www.iqos.com/gb/en/try.html" target="_blank" style="text-decoration:none; color:#34303d; font-size:18px; line-height:22px; font-family: 'Inter', Arial, sans-serif; font-style: normal; font-weight: 600; text-align:center;">
+                
+                                
+                                <img class="show-mob" src="images/how-it-works-kv-mob.png" width="286" height="auto" alt="Try IQOS ILUMA ONE for &pound;10 Upfront" border="0" style="text-align:center; border-width:0; width:100%; height:auto; Margin:0 auto; white-space:pre-line; color:#34303d; font-size:18px; line-height:22px; font-family:'Inter', Arial, sans-serif; font-style:normal; font-weight:600; display:block;" />
+                                
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+                        <!--<![endif]-->
                     </table>
                   </div>
                   <!--[if (gte mso 9)|(IE)]>
